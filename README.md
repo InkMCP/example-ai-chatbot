@@ -1,25 +1,34 @@
 # AI Chatbot
 
-Learn how to deploy an AI chatbot application with Ink MCP using a simple prompt.
+A simple AI chatbot powered by OpenAI GPT-4o-mini, ready to deploy.
+
+## Setup
+
+```bash
+npm install
+
+# Set your OpenAI API key
+cp .env.example .env
+# Edit .env with your actual API key
+
+node server.js
+```
+
+Open [http://localhost:3000](http://localhost:3000) to start chatting.
+
+## Deploy with Ink
+
+Connect the [Ink MCP server](https://docs.ml.ink/quick-start) to your AI agent and prompt:
+
+> Deploy this app with Ink. Set the OPENAI_API_KEY environment variable.
 
 ## Tutorial
 
-Full step-by-step tutorial: [docs.ml.ink/examples/ai-and-mcp/ai-chatbot](https://docs.ml.ink/examples/ai-and-mcp/ai-chatbot)
-
-### Prerequisites
-
-- An [Ink](https://ml.ink) account
-- Ink MCP connected to your AI agent ([setup guide](https://docs.ml.ink/quick-start))
-
-### Quick Deploy
-
-1. Connect Ink MCP to your agent
-2. Prompt: "Build a chatbot web app using Next.js and the Vercel AI SDK. Use Anthropic's Claude as the LLM. Include a clean chat interface with streaming responses."
-3. Prompt: "Deploy with Ink"
+Full tutorial: [docs.ml.ink/examples/ai/chatbot](https://docs.ml.ink/examples/ai/chatbot)
 
 ## About Ink
 
-[Ink](https://ml.ink) is a deployment platform built for AI agents. Connect the Ink MCP server to any AI coding agent and deploy applications, manage domains, databases, and infrastructure — all through natural language prompts.
+[Ink](https://ml.ink) is a deployment platform built for AI agents.
 
 - **Website**: [ml.ink](https://ml.ink)
 - **Documentation**: [docs.ml.ink](https://docs.ml.ink)
